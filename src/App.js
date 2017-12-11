@@ -19,7 +19,7 @@ class App extends Component {
     fetch(LOGIN_ENDPOINT,{
       method: 'POST',
       mode: 'cors',
-      // credentials: 'include',
+      credentials: 'include',
       cache: 'default',
       body: body
     })
